@@ -1,0 +1,209 @@
+body{
+    font-family: "montserrat";
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:#fff;
+}
+.container-fluid{
+    padding: 3% 16% 7%;
+    
+}
+
+.title-img{
+    width: 17%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 22%;
+}
+
+@media (min-width:991px) and (max-width:1048px){
+    .title-img{
+        position: absolute;
+        width: 20%;
+        font-size:3px;
+    }
+    .container-fluid{
+        padding: 3% 13%;
+    }
+}
+
+@media (max-width:992px){
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0) ;
+        width: 50%;
+    }
+}
+
+/*nav bar*/
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 10px;
+    font-weight: normal;
+}
+
+.download-button{
+    margin: 5% 2%;
+}
+
+/* feature*/
+
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.features-section{
+    padding: 8% 15%;
+    
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    padding: 2%;
+}
+
+p{
+    padding: 0 2%;
+}
+
+.icon{
+    text-align: center;
+    color: #ff4c68;
+}
+
+.icon :hover{
+    color: black;
+}
+
+.features-details{
+    text-align: center;
+}
+
+/*testimonial*/
+
+#testimonials{
+    background-color:#ff4c68 ;
+}
+
+h2{
+    line-height:1.7;
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+.carousel-inner{
+    text-align: center;
+    color: #fff;
+    padding:3% 17%;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 20%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-bottom: 0;
+}
+
+/*press*/
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 12%;
+    margin: 30px 40px 10px;
+}
+
+/* cards*/
+
+.card{
+    text-align: center;
+}
+
+/*pricing*/
+
+#pricing{
+    padding: 100px;
+    text-align: center
+
+}
+
+.pricing-content{
+    padding: 3% 2%;
+}
+
+/*call to Action*/
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-section{
+    padding: 3% 17%;
+}
+
+.download-button{
+    margin top:0;
+}
+
+.cta-text{
+    font-size: 2.3rem;
+    padding: 3% 17%;  
+    color: #fff; 
+    line-height: 2; 
+}
+
+/*footer*/
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 15% 2%;
+}
+
+.footer-logo{
+    margin: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
